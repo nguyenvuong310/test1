@@ -1,0 +1,81 @@
+/* reset margin , padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.red {
+  border: 1px solid red;
+}
+.green {
+  border: 1px solid green;
+}
+.banner {
+  height: 865px;
+  /* thut vo 20 px  */
+  padding: 20px;
+  background: url("./banner.jpg") center center no-repeat;
+  .about-sign {
+    height: 80px;
+    width: 100%;
+    margin-top: 48px;
+    text-align: right;
+    .about,
+    .sign {
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 5px 15px;
+    }
+    .sign {
+      margin-right: 111px;
+      margin-left: 20px;
+      border-radius: 20px;
+      border: 1px solid green;
+    }
+  }
+  .content-center {
+    .left,
+    .right,
+    .center {
+      width: 33%;
+      display: inline-block;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+      span {
+        color: red;
+      }
+    }
+  }
+  .logo {
+    background: url("./hapoERP.png") center center no-repeat;
+    margin-top: 100px;
+    height: 100px;
+  }
+  .text {
+    text-align: center;
+    margin-top: 30px;
+    span {
+      color: green;
+    }
+  }
+  .button {
+    text-align: center;
+    button {
+      border-radius: 100px;
+      background: linear-gradient(311.12deg, #b4ec51 0%, #932121 100%);
+      font-family: Roboto;
+      color: #ffffff;
+      letter-spacing: 1.33px;
+      line-height: 21px;
+      text-transform: uppercase;
+      cursor: pointer;
+      height: 40px;
+      width: 144px;
+      margin-top: 20px;
+    }
+  }
+}
